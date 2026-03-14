@@ -1,0 +1,47 @@
+# Sensitive configuration files
+config/email_config.json
+config/service_account.json
+config/geoapify_config.json
+.env
+
+# Data files
+data/logs.txt
+data/scheduler_state.json
+config/location_state.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Auxly - AI Task Management (internal data)
+.auxly/
+.qoder/
